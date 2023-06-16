@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@600&family=Oxanium&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Scoreboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="unit-container">
+                <div class="unit">
+                    <h3>HOME</h3>
+                    <div id="home" class="board">0</div>
+                    <div class="btn-container">
+                        <div id="plus-btn-home-1" class="plus-btn">+ 1</div>
+                        <div id="plus-btn-home-2" class="plus-btn">+ 2</div>
+                        <div id="plus-btn-home-3" class="plus-btn">+ 3</div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <h3>GUEST</h3>
+                    <div id="guest" class="board">0</div>
+                    <div class="btn-container">
+                        <div id="plus-btn-guest-1" class="plus-btn">+ 1</div>
+                        <div id="plus-btn-guest-3" class="plus-btn">+ 3</div>
+                        <div id="plus-btn-guest-2" class="plus-btn">+ 2</div>
+                    </div>
+                </div>
+            </div>
+            <button id="reset-btn" class="reset-btn">RESET</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
